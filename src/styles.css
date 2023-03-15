@@ -4,6 +4,31 @@
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 768px) {
+	.top-page {
+		font-size: 70px;
+	}
+
+	.app-button {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.app-text {
+		text-align: center;
+	}
+
+	p {
+		display: block;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+
+	.about-image {
+		margin: 20px 0px;
+	}
+}
+
 body {
 	margin: 100px auto;
 }
@@ -100,4 +125,29 @@ p {
 
 .email-link:hover {
 	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.top-page {
+		font-size: 70px;
+	}
+
+	.app-button {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.app-text {
+		text-align: center;
+	}
+
+	p {
+		display: block;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+
+	.about-image {
+		margin: 20px 0px;
+	}
 }
